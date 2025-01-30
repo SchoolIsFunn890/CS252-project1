@@ -51,7 +51,7 @@ public class PieView extends javax.swing.JPanel {
 	 * @param g the graphics context
 	 */
 	@Override
-	public void decorate(Graphics g)
+	public void paint(Graphics g)
 	{
 		super.paint(g);
 		Dimension d = getSize();
